@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles_home.css">
+        <link rel="stylesheet" href="home_table.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+    </head>
+    <meta charset="UTF-8">
+    <style>
+        body{
+            margin:0;
+            margin-bottom: 20px;
+            text-decoration: none;
+        }
+        h1{
+            font-size:50px;
+            text-align: center;
+            margin-bottom: 0px;
+
+        }
+        h4{
+            text-align: center;
+
+            border-bottom: 5px solid;
+            border-bottom-color: rgb(117, 180, 196);
+
+            padding-bottom: 10px;
+        }
+        #main_img{
+            display: inline;
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-top: 50px;
+        }
+        #main_dis{
+            text-align: center;
+            text-decoration: none;
+            margin: auto;
+            padding-right: 20px;
+        }
+        #grid{
+            display:grid;
+            grid-template-columns: 1fr 2fr;
+        }
+        #ntable{
+            margin: 0 auto;
+        }
+        .members a{
+            margin-right: 30px;
+            text-decoration: none;
+        }
+        .members a:visited{
+            color:inherit;
+        }
+        #minji{
+            padding-left: 35px;
+        }
+    </style>
+    <body>
+        <h1>🐰NewJeans🐰</h1>
+        <h4 class="members">
+            <a href="minji.html" id="minji">민지</a>
+            <a href="hani.html">하니</a>
+            <a href="daniel.html">다니엘</a>
+            <a href="haerin.html">해린</a>
+            <a href="hyein.html">혜인</a>
+        </h4>
+        <div id="grid">
+            <div id="main_img">
+                <img src="newJeans.jpeg" width="450px">
+            </div>
+            <div id="main_dis">
+                <h2>“둘, 셋! 안녕하세요, NewJeans입니다!”</h2>
+                <p>
+                    NewJeans는 2022년 7월 22일에 데뷔한 대한민국의 5인조 걸 그룹으로, 소속사는 하이브 
+                    산하의 레이블인 어도어이다. SM 엔터테인먼트 비주얼 디렉터 출신으로 하이브에 영입된 민희진이 프로듀서로
+                    나서서 발굴한 걸 그룹이다. 뉴진스의 맴버로는
+                    <a href="minji.html">민지,</a>
+                    <a href="hani.html">하니,</a>
+                    <a href="daniel.html">다니엘,</a>
+                    <a href="haerin.html">해린,</a>
+                    <a href="hyein.html">혜인</a>이 있다.
+                </p>
+                <p>
+                    데뷔 1년 반 만에 NewJeans는 국내의 주요 음악 시상식의 각종 대상을 휩쓸며 자타공인 4세대를 대표하는
+                    걸그룹의 자리에 올랐으며, 그 위상은 미국, 일본 등으로도 뻗어나가며 차세대 K-POP 걸그룹 계보를 이끌어나
+                    갈 유망주 중 한 팀으로 많은 기대와 사랑을 받고 있다.
+                </p>
+                <table border="1" id="ntable">
+                    <thead>
+                        <tr>
+                            <th colspan="3">
+                                음악방송 1위 수상 목록
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>방송사</th>
+                            <th>프로그램</th>
+                            <th>1위 횟수</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>KBS</td>
+                            <td>뮤직뱅크</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>SBS</td>
+                            <td>인기가요</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>MBC</td>
+                            <td>Show! Music Core</td>
+                            <td>4</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <th colspan="2">합계</th>
+                            <th>12</th>
+                        </tr>
+                    </tfoot>
+                </table>                
+                    <div>
+                        <a href="https://www.instagram.com/newjeans_official/">
+                            <img src="insta.webp" id="iimg">
+                        </a>
+                        <a href="https://www.youtube.com/@NewJeans_official">
+                            <img src="yt.png" id="iimg">
+                        </a>
+                        <a href="https://newjeans.kr/">
+                            <img src="home.png" id="iimg">
+                        </a>
+                    </div>
+            </div>
+        </div>
+    </body>
+</html>
